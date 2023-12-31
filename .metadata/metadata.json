@@ -1,0 +1,13 @@
+{
+  "name" : "Fame and Famine",
+  "id" : "",
+  "version" : "",
+  "picture": "thumbnail.png",
+  "supported_game_version" : "",
+  "short_description" : "Manipulates Pop demands to actually need more food. Mostly creates famine, not so much fame.",
+  "tags" : ["Balance, Economy and Buildings", "Pops", "Fixes"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
