@@ -91,47 +91,110 @@ popneed_crude_items = {
 	}
 }
 
-popneed_basic_food = {
+popneed_basic_carbs = {
 	default = grain
 
 	entry = {
 		goods = grain
 		
 		weight = 1 # Keeping
-		max_supply_share = 1.0 # 0.9 pointless now
-		min_supply_share = 0.1
+		max_supply_share = 1 # 0.9 pointless now
+		min_supply_share = 0
 	}
-	
+
+	entry = {
+		goods = fruit
+		
+		weight = 1 # 0.5
+		max_supply_share = 1
+		min_supply_share = 0 # 0.025
+	}
+
+	entry = {
+		goods = sugar
+		
+		weight = 1
+		max_supply_share = 1
+		min_supply_share = 0
+	}
+
+	entry = {
+		goods = services
+		
+		weight = 0.125
+		max_supply_share = 0.125
+		min_supply_share = 0.0125
+	}
+}
+
+popneed_basic_protein = {
+	default = meat
+
+	entry = {
+		goods = meat
+		
+		weight = 1 # 0.5
+		max_supply_share = 1.0
+		min_supply_share = 0
+	}
+
 	entry = {
 		goods = fish
 		
 		weight = 1 # Keeping
 		max_supply_share = 1.0 # 0.9 pointless now
-		min_supply_share = 0.1
+		min_supply_share = 0
+	}
+	entry = {
+		goods = groceries
+		
+		weight = 1 # 0.75
+		max_supply_share = 1.0
+		min_supply_share = 0
+	}
+}
+
+popneed_basic_food = {
+	default = grain
+
+	entry = {
+		goods = grain
+		
+		weight = 0.5 # Keeping
+		max_supply_share = 0.75 # 0.9 pointless now
+		min_supply_share = 0
+	}
+	
+	entry = {
+		goods = fish
+		
+		weight = 0.5 # Keeping
+		max_supply_share = 1.0 # 0.9 pointless now
+		min_supply_share = 0.25
 	}
 	
 	entry = {
 		goods = groceries
 		
 		weight = 0.5 # 0.75
-		max_supply_share = 0.5
-		min_supply_share = 0.1
+		max_supply_share = 1.0
+		min_supply_share = 0.01
 	}
 
 	entry = {
 		goods = meat
 		
-		weight = 0.25 # 0.5
-		max_supply_share = 0.25
-		min_supply_share = 0.025
+		weight = 0.5 # 0.5
+		max_supply_share = 1.0
+		min_supply_share = 0.25
 	}
 	
 	entry = {
 		goods = fruit
 		
 		weight = 0.25 # 0.5
-		max_supply_share = 0.25
-		min_supply_share = 0.025
+		max_supply_share = 0.9
+		min_supply_share = 0 # 0.025
 	}
 	
 	entry = {
