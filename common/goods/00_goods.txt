@@ -19,6 +19,7 @@ small_arms = {
 	cost = 60
 	category = military
 	
+	obsession_chance = 0.5
 	prestige_factor = 5
 }
 
@@ -47,6 +48,7 @@ aeroplanes = {
 	cost = 80
 	category = military
 	
+	obsession_chance = 0.5
 	prestige_factor = 10
 	traded_quantity = 3
 	convoy_cost_multiplier = 2.0
@@ -78,7 +80,7 @@ ironclads = {
 
 grain = {
 	texture = "gfx/interface/icons/goods_icons/grain.dds"
-	cost = 20 # was 20
+	cost = 20
 	category = staple
 	
 	prestige_factor = 3
@@ -91,7 +93,7 @@ grain = {
 
 fish = {
 	texture = "gfx/interface/icons/goods_icons/fish.dds"
-	cost = 20 # was 20
+	cost = 20
 	category = staple
 	
 	prestige_factor = 3
@@ -130,7 +132,7 @@ wood = {
 
 groceries = {
 	texture = "gfx/interface/icons/goods_icons/groceries.dds"
-	cost = 40 # was 30
+	cost = 30
 	category = staple
 	
 	prestige_factor = 4
@@ -222,6 +224,7 @@ clippers = {
 	cost = 60
 	category = industrial
 	
+	obsession_chance = 0.5
 	prestige_factor = 5
 	traded_quantity = 3.5
 	convoy_cost_multiplier = 0.25
@@ -232,6 +235,7 @@ steamers = {
 	cost = 70
 	category = industrial
 	
+	obsession_chance = 0.5
 	prestige_factor = 5
 	traded_quantity = 3.5
 	convoy_cost_multiplier = 0.25
@@ -388,7 +392,7 @@ porcelain = {
 
 meat = {
 	texture = "gfx/interface/icons/goods_icons/meat.dds"
-	cost = 30 # was 30
+	cost = 30
 	category = luxury
 	
 	obsession_chance = 1.0
@@ -402,7 +406,7 @@ meat = {
 
 fruit = {
 	texture = "gfx/interface/icons/goods_icons/fruit.dds"
-	cost = 30 # was 30
+	cost = 30
 	category = luxury
 	
 	obsession_chance = 1.0
@@ -416,7 +420,7 @@ fruit = {
 
 liquor = {
 	texture = "gfx/interface/icons/goods_icons/liquor.dds"
-	cost = 30 # was 30
+	cost = 30
 	category = luxury
 	
 	obsession_chance = 2.0
@@ -458,7 +462,7 @@ coffee = {
 
 sugar = {
 	texture = "gfx/interface/icons/goods_icons/sugar.dds"
-	cost = 35 # was 30
+	cost = 30
 	category = luxury
 	
 	obsession_chance = 1.5
@@ -480,7 +484,7 @@ tobacco = {
 
 opium = {
 	texture = "gfx/interface/icons/goods_icons/opium.dds"
-	cost = 55 # was 50
+	cost = 50
 	category = luxury
 	
 	obsession_chance = 2.0
@@ -496,6 +500,8 @@ automobiles = {
 	obsession_chance = 1.0
 	prestige_factor = 10
 	traded_quantity = 4
+	
+	pop_consumption_can_add_infrastructure = yes
 }
 
 telephones = {
