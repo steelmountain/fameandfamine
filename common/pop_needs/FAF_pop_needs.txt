@@ -205,7 +205,7 @@ popneed_intoxicants = {
 	entry = {
 		goods = wine
 		
-		weight = 0.5
+		weight = 1
 		max_supply_share = 0.75
 		min_supply_share = 0.0
 	}
@@ -218,7 +218,7 @@ popneed_luxury_drinks = {
 		goods = tea
 		
 		weight = 1
-		max_supply_share = 0.75
+		max_supply_share = 1
 		min_supply_share = 0.0
 	}
 	
@@ -226,15 +226,7 @@ popneed_luxury_drinks = {
 		goods = coffee
 		
 		weight = 1
-		max_supply_share = 0.75
-		min_supply_share = 0.0
-	}
-	
-	entry = {
-		goods = wine
-		
-		weight = 1
-		max_supply_share = 0.75
+		max_supply_share = 1
 		min_supply_share = 0.0
 	}
 }
@@ -287,7 +279,7 @@ popneed_luxury_food = {
 		
 		weight = 1
 		max_supply_share = 0.75
-		min_supply_share = 0.1
+		min_supply_share = 0.25
 	}
 	
 	entry = {
@@ -295,7 +287,7 @@ popneed_luxury_food = {
 		
 		weight = 1
 		max_supply_share = 0.75
-		min_supply_share = 0.1
+		min_supply_share = 0.25
 	}
 	
 	entry = {
@@ -303,7 +295,7 @@ popneed_luxury_food = {
 		
 		weight = 1.5
 		max_supply_share = 1.0
-		min_supply_share = 0.0
+		min_supply_share = 0.25
 	}
 	
 	entry = {
